@@ -876,9 +876,9 @@
             </activation>
             <properties>
                 <!-- default Spring profiles -->
-                <liquibase-plugin.password/>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/InfinityShoppingNotificationApp</liquibase-plugin.url>
-                <liquibase-plugin.username>InfinityShoppingNotificationApp</liquibase-plugin.username>
+                <liquibase-plugin.password>admin</liquibase-plugin.password>
+                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/infinityshopping-microservice-consul-notification</liquibase-plugin.url>
+                <liquibase-plugin.username>postgres</liquibase-plugin.username>
                 <profile.test>test,testdev</profile.test>
                 <spring.profiles.active>dev${profile.tls}${profile.no-liquibase}</spring.profiles.active>
             </properties>
@@ -890,19 +890,19 @@
                 </dependency>
             </dependencies>
         </profile>
-        <profile>
-            <id>docker-compose</id>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
-            <dependencies>
-                <dependency>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-docker-compose</artifactId>
-                    <optional>true</optional>
-                </dependency>
-            </dependencies>
-        </profile>
+<!--        <profile>-->
+<!--            <id>docker-compose</id>-->
+<!--            <activation>-->
+<!--                <activeByDefault>true</activeByDefault>-->
+<!--            </activation>-->
+<!--            <dependencies>-->
+<!--                <dependency>-->
+<!--                    <groupId>org.springframework.boot</groupId>-->
+<!--                    <artifactId>spring-boot-docker-compose</artifactId>-->
+<!--                    <optional>true</optional>-->
+<!--                </dependency>-->
+<!--            </dependencies>-->
+<!--        </profile>-->
         <profile>
             <!-- This is automatically activated when working in Eclipse -->
             <id>eclipse</id>
