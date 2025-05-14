@@ -45,6 +45,7 @@ public class CacheConfiguration {
     @Bean
     public JCacheManagerCustomizer cacheManagerCustomizer() {
         return cm -> {
+            createCache(cm, infinityshopping.online.app.domain.Notification.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
