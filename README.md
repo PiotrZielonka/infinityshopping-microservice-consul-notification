@@ -1,11 +1,11 @@
-# InfinityShopping Microservice – Notification 
+# InfinityShopping Consul Microservice – Notification 
 
-This is the **Notification** microservice from the **microservices-based concept** of the [InfinityShopping](https://github.com/PiotrZielonka/infinityshopping) e-commerce shop generator, originally implemented as a **monolithic JHipster application**.
+This is the **Notification** consul microservice from the **microservices-based concept** of the [InfinityShopping](https://github.com/PiotrZielonka/infinityshopping) e-commerce shop generator, originally implemented as a **monolithic JHipster application**.
 
 The purpose of this repository is to **learn and demonstrate microservices architecture** using **JHipster**, **Spring Boot**, and **Consul**, while offering a solid base for scaling the monolith into a full microservices solution.
 
 If you want to run the entire application, you must run all microservices described in the main README here:  
-👉 [InfinityShopping Microservices Product Concept](https://github.com/PiotrZielonka/infinityshopping-microservices-consul-product-concept)
+👉 [InfinityShopping Microservices Consul Product Concept](https://github.com/PiotrZielonka/infinityshopping-microservices-consul-product-concept)
 
 ---
 
