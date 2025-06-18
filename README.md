@@ -7,8 +7,6 @@ The purpose of this repository is to **learn and demonstrate microservices archi
 If you want to run the entire application, you must run all microservices described in the main README here:  
 👉 [InfinityShopping Microservices Product Concept](https://github.com/PiotrZielonka/infinityshopping-microservices-consul-product-concept)
 
-> 🛠️ This is a **training and concept project**, not a production-ready application.
-
 ---
 
 ## 🧪 Running the Application Locally
@@ -44,9 +42,8 @@ To make sure you are running with the correct setup:
 
 ### Launch only this microservice
 
-1. Start the Gateway  
-   [Gateway Repository](https://github.com/PiotrZielonka/infinityshopping-consul-gateway)
-2. Start the Notification service on `localhost:8082`  
+1. Start the Gateway  [Gateway Repository](https://github.com/PiotrZielonka/infinityshopping-consul-gateway)   
+2. Start the Notification Microservice on `localhost:8082`  
 3. In each project directory (gateway and notification), run the following command:
 
    ```bash
@@ -60,21 +57,17 @@ To make sure you are running with the correct setup:
 
 ---
 
+## 📫 Questions?
+
+If you have questions or want to connect:
+
+* Check out the monolith version: [InfinityShopping Monolith](https://github.com/PiotrZielonka/infinityshopping) 
+* Open an issue on this repository
+
+---
+
 ## 🔭 Project Scope
 
 This is a **learning playground** but also a **powerful concept prototype** for real-world microservice systems.
 
 ---
-
-## 📫 Questions?
-
-If you have questions or want to connect:
-
-* Open an issue on this repository
-* Check out the monolith version: [InfinityShopping Monolith](https://github.com/PiotrZielonka/infinityshopping)
-
----
-
-## 🤝 Contributing
-
-This is a personal training and demo project. Contributions are welcome.
